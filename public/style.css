@@ -1,0 +1,33 @@
+<style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #reader { 
+        width: 600px;
+      }
+      #result {
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      .tagline{
+        text-align: center;
+      }
+      .h1-tagline{
+        font-size: 24px;
+      }
+      .h4-success{
+        color: green;
+      }
+
+      .h4-failed{
+        color: red;
+      }
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 32px;
+        }
+    }
+    </style>
