@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "html5-qrcode": "^2.3.8"
+    "express": "^4.18.2",
+    "html5-qrcode": "^2.3.8",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "ip": "^1.1.8",
+    "nodemon": "^3.0.1"
   }
 }
