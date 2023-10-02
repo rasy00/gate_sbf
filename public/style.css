@@ -41,6 +41,7 @@ h1 {
   font-weight: 600;
   font-size: 25px;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .success_checking>.panel> .class{

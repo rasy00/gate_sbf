@@ -32,7 +32,6 @@ app.get("/", (req, res) => {
 app.post("/checking", (req, res) => {
   // res.json({ no: res.body.no_induk });
   db_operation.checking(req.body.no_induk, (result) => {
-    console.log(result[0]);
     if (result[0]) {
       res.json(result[0]);
     } else {
